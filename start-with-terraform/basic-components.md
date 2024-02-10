@@ -17,7 +17,13 @@ The core Terraform workflow consists of only four steps:
 
 ## init
 
+The first command to run for a new configuration—or after checking out an existing configuration from version control—is `terraform init`. This will initialize various local settings and data that will be used by subsequent commands.
 
+```bash
+terraform init
+```
+
+Although the concise description is only just two words, this command undertakes various essential tasks behind the scenes. For instance,  it initializes the associated backend, whether local or remote. In cases where the configuration involves provider plugins, the command seamlessly downloads and installs the required provider plugins. Furthermore, `terraform init` sets up modules if they exist in your code.  Additionally, the command takes care of the automatic setup of the local Terraform state, streamlining the overall configuration process.
 
 ## plan
 
