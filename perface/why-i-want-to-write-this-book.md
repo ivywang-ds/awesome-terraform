@@ -1,2 +1,15 @@
-# Why I want to write this book?
+# What motivates me to write this book?
 
+As I look back on my journey in the dynamic realm of Data Science, I've been fortunate to lead and contribute to various machine learning (ML) and artificial intelligence (AI) initiatives. These experiences not only sharpened my technical skills but also shed light on a crucial gap in the ecosystem – the urgent need for a more organized and traceable infrastructure management system.
+
+A sophisticated ML project, with all its intricacies, is deeply connected to the operational aspects of the real business world. This connection underscores the importance of a robust framework capable of seamlessly supporting the engineering and operational requirements of such projects. It's not just about deploying models into production; it's about ensuring these models stay relevant, efficient, and aligned with evolving business goals.
+
+Thus, a scalable and transparent infrastructure becomes essential. This infrastructure should not only handle the lifecycle of ML models but also facilitate smooth collaboration among data scientists, engineers, and operations teams. Achieving this synergy is crucial for businesses to thrive in an increasingly data-driven landscape.
+
+The power of cloud platforms is growing, providing numerous ways to create, update, delete, and manage infrastructures more efficiently, including compute engines, storage, network, and security. While the traditional approach to infrastructure management works well for handling limited resources, it becomes a challenge when dealing with complex or extensive projects. For instance, managing 500 diverse resources for 15 projects across 4 organizations using the old-school method can turn into a disaster, leaving engineers frustrated.
+
+The notion of Infrastructure as Code (IaC) and the introduction of Terraform immediately caught my attention. I find the philosophy behind IaC quite appealing. Instead of drowning in lines of code to describe every detail, you just need to focus on the desired state of your resource, and let Terraform, along with the platform, handle the rest. What's even better is that it's lightweight and seamlessly integrates with over 1000 providers. Regardless of the mainstream cloud platform your organization relies on, Terraform works seamlessly.
+
+It genuinely rescued me from the daily grind of endless tasks and significantly reduced the potential for human errors. Let's face it – humans are prone to making mistakes, and in project management, these errors can be a significant challenge. I'm not suggesting that we make mistakes intentionally, but being human, mistakes are inevitable. With IaC and Terraform, we can make our actions transparent, traceable, and enhance the overall quality assurance.
+
+This realization prompted me to dive into it immediately and compelled me to pen down my experiences in this book. I wholeheartedly recommend it to fellow data engineers, data scientists, machine learning engineers, and solution architects. It's a time and energy saver that contributes to maintaining your mental well-being.

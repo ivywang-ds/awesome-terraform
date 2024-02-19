@@ -1,12 +1,11 @@
 # Table of contents
 
 * [Perface](README.md)
-  * [Why I want to write this book?](perface/why-i-want-to-write-this-book.md)
+  * [What motivates me to write this book?](perface/why-i-want-to-write-this-book.md)
   * [What will you get from the book?](perface/what-will-you-get-from-the-book.md)
 * [Introduction of Terraform](introduction-of-terraform/README.md)
   * [1. What is Terraform and IaC?](introduction-of-terraform/1.-what-is-terraform-and-iac.md)
   * [2. What can Terraform do?](introduction-of-terraform/2.-what-can-terraform-do.md)
-  * [3. Install Terraform](introduction-of-terraform/3.-install-terraform.md)
 * [Know Terraform](know-terraform/README.md)
   * [Basic Components](know-terraform/basic-components.md)
   * [Untitled](know-terraform/untitled.md)
