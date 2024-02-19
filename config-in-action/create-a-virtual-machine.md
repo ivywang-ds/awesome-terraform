@@ -4,7 +4,7 @@ description: >-
   instance, how to update a resource and how to destroy a resource
 ---
 
-# Create a compute instance and change the resource
+# 2. Create a compute instance and change the resource
 
 With the [ create a storage bucket ](create-your-first-storage-bucket.md)experience, it's likely you're already familiar with Terraform. Let's proceed to create another type of resource: a compute instance.
 
@@ -91,7 +91,7 @@ terrafrom apply
 
 <figure><img src="../.gitbook/assets/create a compute instance.png" alt=""><figcaption><p>Create a compute instance</p></figcaption></figure>
 
-## Change resource in updating
+## 3. Change resource in updating
 
 Consider this scenario: We are not managing one or two resources, instead, you need to manage hundreds resources including virtual machine, storage, network, and so on for multiple departments or multiple environments.  How can we find out the targeted resource as quickly as possible?
 
@@ -118,7 +118,7 @@ Then run the `terrform apply` to update the change.
 
 In Google Cloud Platform, navigating to the VM instances dashboard reveals a setup including a network labeled `my-network` and an instance named `my-instance`, running on Debian OS. Additionally, the network is tagged with `dev` and `machine-learning` to categorize its usage and purpose.
 
-## Change resource in replacing
+## 4. Change resource in replacing
 
 Here's an example. Navigate back to your `main.tf` file in editor mode and incorporate the following snippet into your "vm\_instance" configuration. While updating resources is commonly preferred,  there are instances where it becomes necessary to replace an existing resource rather than merely updating it. This need arises, for instance, when the cloud provider no longer supports updating the resource as per your current configuration, a scenario also referred to as a destructive change.
 
@@ -142,7 +142,7 @@ When the replacing is done, you will see the notification. One resource is destr
 
 
 
-## Destroy a resource
+## 5. Destroy a resource
 
 Having learned how to create and update a resource, let's proceed to deleting it. While rare in production, deletion is common in development, testing, and staging environments.
 
