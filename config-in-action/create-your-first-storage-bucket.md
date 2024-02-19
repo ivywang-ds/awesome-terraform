@@ -73,7 +73,7 @@ terraform init
 terraform plan
 ```
 
-7. Apply the change
+8. Apply the change
 
 ```
 terraform apply
