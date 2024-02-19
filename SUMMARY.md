@@ -11,6 +11,6 @@
   * [Basic Components](know-terraform/basic-components.md)
   * [Untitled](know-terraform/untitled.md)
 * [Config In Action](config-in-action/README.md)
-  * [Create your first Storage Bucket](config-in-action/create-your-first-storage-bucket.md)
-  * [Create a Virtual Machine and change the resource](config-in-action/create-a-virtual-machine.md)
+  * [Create a storage bucket](config-in-action/create-your-first-storage-bucket.md)
+  * [Create a compute instance and change the resource](config-in-action/create-a-virtual-machine.md)
   * [Create Virtual Machine in Batch](config-in-action/create-virtual-machine-in-batch.md)

@@ -1,4 +1,4 @@
-# Create your first Storage Bucket
+# Create a storage bucket
 
 In the Google Cloud Platform, we have multiple ways to create a storage bucket. Today we will learn how to create one with Terraform.
 
@@ -11,19 +11,13 @@ You need to have a google cloud account to use the platform.&#x20;
 export GOOGLE_CLOUD_PROJECT=PROJECT_ID  
 ```
 
-3. In the Cloud Shell terminal, set the home directory as the active directory
-
-```
-cd
-```
-
 3. Create a new folder named 'terraform'
 
 ```
 mkdir terraform   # make a directory
 ```
 
-4. &#x20;enter the 'terraform' directory and create a new file called 'main.tf'
+4. &#x20;Enter the 'terraform' directory and create a new file called 'main.tf'
 
 ```
 cd terraform
@@ -31,7 +25,7 @@ touch main.tf
 ```
 
 4. Launch the Cloud Shell Editor by clicking **Open Editor** on the toolbar of the Cloud Shell window and then open the 'main.tf' file.
-5. Now we will write some code into the 'main.tf' and create a new storage bucket in the US multiple region.
+5. Write some code into the 'main.tf' and create a new storage bucket in the US multiple region.
 
 ```sh
 terraform {
