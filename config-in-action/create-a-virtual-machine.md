@@ -101,7 +101,7 @@ Here is the example. Go back to the `main.tf` file in a editor mode, add the sni
 
 ```hcl
 resource "google_compute_instance" "vm_instance" {
-  name         = "terraform-instance"
+  name         = "my-instance"
   machine_type = "e2-micro"
   tags         = ["dev", "machine-learning"]
   # ...
