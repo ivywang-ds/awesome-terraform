@@ -14,6 +14,6 @@
   * [1. Create a storage bucket](config-in-action/create-your-first-storage-bucket.md)
   * [2. Create a compute instance and change the resource](config-in-action/create-a-virtual-machine.md)
   * [3. Create multiple resources in batch](config-in-action/create-virtual-machine-in-batch/README.md)
-    * [3.1 Create multiple compute instances in same region](config-in-action/create-virtual-machine-in-batch/3.1-create-multiple-compute-instances-in-same-region.md)
+    * [3.1 Create multiple storages in same region and different environments](config-in-action/create-virtual-machine-in-batch/3.1-create-multiple-storages-in-same-region-and-different-environments.md)
     * [3.2 Create multiple networks with different names](config-in-action/create-virtual-machine-in-batch/3.2-create-multiple-networks-with-different-names.md)
-    * [3.3 Create multiple compute instances in different regions](config-in-action/create-virtual-machine-in-batch/3.3-create-multiple-compute-instances-in-different-regions.md)
+    * [3.3 Create multiple compute instances in different zones](config-in-action/create-virtual-machine-in-batch/3.3-create-multiple-compute-instances-in-different-zones.md)
