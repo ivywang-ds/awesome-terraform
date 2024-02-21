@@ -4,7 +4,7 @@ description: >-
   They are the fundamental knowledge of Terraform and Infrastructure as Code.
 ---
 
-# Basic Components
+# Basic Commands
 
 In the preceding section, we explored the basics of Infrastructure as Code and got to know Terraform. Now, let's highlight one for Terraform's coolest features: its **declarative philosophy.** This approach allows you to define and set up infrastructure resources using a simple configuration language. Terraform only looks at where you are (initial state) and where yo want to be (destination state), applying only the right and necessary changes to get there. Which means, you don't have to worry about what's happening in between or write loads of extra code.
 
@@ -57,13 +57,7 @@ The output will display real-time feedback on each step of the application proce
 
 As you can see from the graph above, the process begins with Terraform reviewing the plan, assessing it as a 'create' task. Then It displays the entire task and asks your approval. In the 'Enter a value' section, you need to manually type 'yes' to confirm the modification. Subsequently, the command initiates the execution of the change and provides a comprehensive notification upon completion.
 
-## variables
-
-## outputs
-
-## provider
-
-## versions
+##
 
 
 
