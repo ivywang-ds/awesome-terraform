@@ -3,6 +3,7 @@
 * [Perface](README.md)
   * [What motivates me to write this book?](perface/why-i-want-to-write-this-book.md)
   * [What will you get from the book?](perface/what-will-you-get-from-the-book.md)
+  * [How to use the book?](readme/how-to-use-the-book.md)
 * [Introduction of IaC and Terraform](introduction-of-iac-and-terraform/README.md)
   * [The tradition approach of managing infrastructure resources](introduction-of-iac-and-terraform/the-tradition-approach-of-managing-infrastructure-resources.md)
   * [What is Infrastructure as Code?](introduction-of-iac-and-terraform/1.-what-is-terraform-and-iac.md)
