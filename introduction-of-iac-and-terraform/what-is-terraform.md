@@ -2,9 +2,7 @@
 
 ## Terraform
 
-Terraform is HashiCorp's infrastructure as code tool. It lets you define resources and infrastructure in human-readable, declarative configuration files, and manages your infrastructure's lifecycle.&#x20;
-
-Terraform serves as HashiCorp's dedicated IaC tool, empowering users to articulate resources and infrastructure through human-readable, declarative configuration files. It goes beyond mere definition, actively managing the entire lifecycle of your infrastructure. The beauty lies in its ability to interpret configuration files, generate execution plans, and execute them to bring your infrastructure to the desired state. As the configuration changes, Terraform can determine what changed and create incremental execution plans that can be applied.
+&#x20;Terraform serves as HashiCorp's dedicated IaC tool, empowering users to articulate resources and infrastructure through human-readable, declarative configuration files. It goes beyond mere definition, actively managing the entire lifecycle of your infrastructure. The beauty lies in its ability to interpret configuration files, generate execution plans, and execute them to bring your infrastructure to the desired state. As the configuration changes, Terraform can determine what changed and create incremental execution plans that can be applied.
 
 The infrastructure Terraform can manage includes both low-level components such as compute instances, storage, and networking, and high-level components such as DNS entries and SaaS features.
 
