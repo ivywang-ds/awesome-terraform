@@ -1,21 +1,25 @@
-# 2. What is Terraform?
+# What is Terraform?
 
 ## Terraform
 
 Terraform is HashiCorp's infrastructure as code tool. It lets you define resources and infrastructure in human-readable, declarative configuration files, and manages your infrastructure's lifecycle.&#x20;
 
-Configuration files describe to Terraform the components needed to run a single application or your entire data center. Terraform generates an execution plan describing what it will do to reach the desired state, and then executes it to build the described infrastructure. As the configuration changes, Terraform can determine what changed and create incremental execution plans that can be applied.
+Terraform serves as HashiCorp's dedicated IaC tool, empowering users to articulate resources and infrastructure through human-readable, declarative configuration files. It goes beyond mere definition, actively managing the entire lifecycle of your infrastructure. The beauty lies in its ability to interpret configuration files, generate execution plans, and execute them to bring your infrastructure to the desired state. As the configuration changes, Terraform can determine what changed and create incremental execution plans that can be applied.
 
 The infrastructure Terraform can manage includes both low-level components such as compute instances, storage, and networking, and high-level components such as DNS entries and SaaS features.
+
+<figure><img src="../.gitbook/assets/terraform workflow.avif" alt=""><figcaption><p>Terraform workflow</p></figcaption></figure>
 
 Using Terraform has several advantages over manually managing your infrastructure:
 
 * Terraform can manage infrastructure on multiple cloud platforms.
 * The human-readable configuration language helps you write infrastructure code quickly.
 * Terraform's state allows you to track resource changes throughout your deployments.
-* You can commit your configurations to version control to safely collaborate on infrastructure.
+* You can commit your configurations to version control to safely collaborate on infrastructure
 
-### Key features
+
+
+### Key features of Terraform
 
 **Infrastructure as code**
 
