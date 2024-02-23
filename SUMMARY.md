@@ -5,7 +5,7 @@
   * [What will you get from the book?](perface/what-will-you-get-from-the-book.md)
   * [How to use the book?](readme/how-to-use-the-book.md)
 * [Introduction of IaC and Terraform](introduction-of-iac-and-terraform/README.md)
-  * [The tradition approach of managing infrastructure resources](introduction-of-iac-and-terraform/the-tradition-approach-of-managing-infrastructure-resources.md)
+  * [The traditional approach of managing infrastructure resources](introduction-of-iac-and-terraform/the-traditional-approach-of-managing-infrastructure-resources.md)
   * [What is Infrastructure as Code?](introduction-of-iac-and-terraform/1.-what-is-terraform-and-iac.md)
   * [What is Terraform?](introduction-of-iac-and-terraform/what-is-terraform.md)
   * [What is benefit of IaC and Terraform?](introduction-of-iac-and-terraform/2.-what-can-terraform-do.md)
